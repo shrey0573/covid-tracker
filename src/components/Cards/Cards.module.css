@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;900&display=swap');
+
+*{
+    font-family: 'Montserrat', serif !important;
+}
+
+.container{
+    margin: 50px 0px;
+    font-weight: 500;
+}
+
+.logo{
+    position: relative !important;
+    top: 20px;
+}
+
+span{
+    color:rgb(26, 119, 226) !important;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+    font-family: 'Montserrat', sans-serif !important;
+}
+.card{
+    margin: 0 2% !important ;
+    transition: transform .2s ease-in !important;
+}
+
+.card:hover{
+    transform: scale(1.03) ;
+}
+
+.infected{
+    color: red !important;
+    border-bottom: 5px solid red;
+}
+
+.recovered{
+    color: green !important;
+    border-bottom: 5px solid green;
+}
+
+.deaths{
+    color: rgb(10, 10, 10) !important;
+    border-bottom: 5px solid rgb(10, 10, 10);
+}
